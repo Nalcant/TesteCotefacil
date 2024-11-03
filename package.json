@@ -1,0 +1,14 @@
+{
+    "name": "cypress_test",
+    "description": "description",
+    "authors": "author",
+    "version": "1.0.0",
+    "main": "pathToMain",
+    "scripts": {
+        "cy:open": "cypress open"
+    },
+    "dependencies": {
+        "cypress": "^13.15.1",
+        "cypress_test": "file:"
+    }
+}
